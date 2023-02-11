@@ -3,3 +3,21 @@
     margin: 0;
     padding: 0;
 }
+#navbar {
+    display: flex;
+    align-items: center;
+}
+#navbar ul{
+     display: flex;
+
+}
+#navbar ul li {
+     list-style: none;
+
+}
+#navbar ul li a {
+    display: block;
+    padding: 3px 5px;
+    margin-top: 29px;
+    text-decoration: none;
+}
