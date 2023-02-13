@@ -1,23 +1,39 @@
-/* CSS Reset */
+/* CSS Reset  */
 *{
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
 }
+/* Navigation Bar */
 #navbar {
     display: flex;
-    align-items: center;
+    /* justify-content: center; */
 }
-#navbar ul{
-     display: flex;
 
+/* Navigation Bar - Logo and Img  */
+#logo{
+     margin: 10px 34px;
 }
+
+#logo img{
+    height: 80px;
+    margin: 15px 15px;
+}
+
+/* Navigatoin Bar - List styling  */
+#navbar ul {
+    display: flex;
+ 
+}
+
 #navbar ul li {
-     list-style: none;
-
+    list-style: none;
+   
 }
+
 #navbar ul li a {
     display: block;
-    padding: 3px 5px;
-    margin-top: 29px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 4px 5px;
     text-decoration: none;
 }
